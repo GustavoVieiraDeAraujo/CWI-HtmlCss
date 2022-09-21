@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-between;
+    background-color: #F6F6F6;
+    width: 100%;
+}
+
+.header div {
+    display: flex;
+    align-items: center;
+    width: 8%;
+    justify-content: space-between;
+}
+
+.header div img {
+    display: flex;
+    background-color: #515070;
+    padding: 5px;
+    width: 34px;
+    height: 34px;
+}
+
+.header ul {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.header ul li {
+    list-style: none;
+}
