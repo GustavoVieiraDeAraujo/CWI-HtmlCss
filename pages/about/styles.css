@@ -1,0 +1,241 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-between;
+    background-color: #F6F6F6;
+    width: 100%;
+}
+
+.header div {
+    display: flex;
+    align-items: center;
+    width: 8%;
+    justify-content: space-between;
+}
+
+.header div img {
+    display: flex;
+    background-color: #515070;
+    padding: 5px;
+    width: 34px;
+    height: 34px;
+}
+
+.header ul {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.header ul li {
+    list-style: none;
+}
+
+.align-page{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1120px;
+}
+
+.banner{
+    position: relative;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.banner::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.banner-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-title{
+    color: white;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.banner-text{
+    color: white;
+    font-size: 23px;
+}
+
+.our-team{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.title{
+    font-size: 50px;
+    color: #515070
+}
+
+.subtitle{
+    color: #515070;
+    margin-bottom: 40px;
+}
+
+.team{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.employee{
+    position: relative;
+}
+
+.employee img {
+    width: 100%;
+}
+
+.employee::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: deepskyblue;
+    opacity: 30%;
+}
+
+.content-employee{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 15px 15px 15px;
+}
+
+.name-employee{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.description-employee{
+    font-size: 15px;
+    color: white;
+}
+
+.background{
+    background-color: #F6F6F6;
+}
+
+.culture{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 150px 0;
+}
+
+.title-value{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-bottom: 25px;
+}
+
+.title-value h1{
+    font-size: 50px;
+    color: #515070
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    justify-content: space-between;
+    background-color: white;
+    gap: 40px;
+    margin-bottom: 60px;
+    margin-top: 25px;
+}
+
+.footer .imagem-texto img {
+    display: flex;
+    background-color: #515070;
+    padding: 5px;
+    width: 34px;
+    height: 34px;
+}
+
+.imagem-texto {
+    display: flex;
+    gap: 10px
+}
+
+.logos {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.lista {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.lista ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.lista li {
+    list-style: none;
+    margin: 0;
+}
+
+
